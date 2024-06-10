@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+  }
+  
+  html,body{
+    min-width: 100%;
+    overflow-x: hidden;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightgrey;
+  }
+  
+  header .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    min-height: 12vh;
+    min-width: 100%;
+    z-index: 10;
+    background: #3b5d50;
+    border-bottom: 2px solid #000a12;
+  }
+  
+  header .navigation .logo img{
+    margin-left: 10%;
+    width:150%;
+    height:150%;
+  }
+  
+  header .navigation .logo2 img{
+   margin-left: 50%;
+    width:20%;
+    height:40%;
+
+  }
+  
+  header .navigation .dropdown {
+    margin-right: 20px;
+  }
+
+  
+  .nav-link:hover{
+    background-color: rgb(21, 45, 19);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .card-body ul li {
+  background-color: rgb(194, 193, 193);
+  }
+  .card-body .nav-tabs {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: black;
+    }
+    .nav-link{
+        color: black;
+    }
+    
+  
+  /* ====================
+    Intro Section
+  =======================*/
+  .intro-section {
+    height: 100vh;
+    position: relative;
+    background: rgba(15, 20, 35, 0.9);
+  }
+  
+ 
+  
+ 
+  
+  .changing:nth-child(1) {
+    animation: revealNextWord 6s cubic-bezier(0.57, 1.52, 0.9, 1.08) 1.5s infinite;
+  }
+  
+  .changing:nth-child(2) {
+    animation: revealNextWord 6s cubic-bezier(0.57, 1.52, 0.9, 1.08) 3s infinite;
+  }
+  
+  .changing:nth-child(3) {
+    animation: revealNextWord 6s cubic-bezier(0.57, 1.52, 0.9, 1.08) 4.5s infinite;
+  }
+  
+  @keyframes revealNextWord {
+    0% { 
+      opacity: 0.3; 
+      height: 0.0; 
+    }
+    10% { 
+      opacity: 1; 
+      height:1.2em; 
+    }
+    20% { 
+      opacity: 1; 
+      height:1.2em; 
+    }
+    28% { 
+      opacity: 0; 
+      height:2em; 
+    }
+    
+  }
+  
+ 
+  
+ 
+ 
+  /* ====================
+    Responsive Section
+  =======================*/
+  
+  /* Tablet desktop :768px. */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    header .navigation .s {
+      width: 60%;
+    }
+  
+    header .navigation .dropdown{
+      font-size: 1rem;
+    }
+  
+  }
+  
+  /* Large Mobile :480px. */
+  
+
+    header .navigation .dropdown li {
+      display: block;
+    }
+  
+    header .navigation .dropdown li a {
+      display: block;
+      padding: 20px;
+      transition: color 1s ease, padding 1s ease, background-color 1s ease;
+  
+    }
+  
+    header .navigation .dropdown li a:hover{
+      color: #b1d4e0;
+      padding-left: 30px;
+      background: rgba(177, 212, 224, 0.2);
+    }
+ 
+  
+  
+  
+  
+  /* small mobile :320px. */
+  
+  @media only screen and (max-width: 479px) {
+  
+    .intro-inner .card h1 {
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+  
+    .intro-inner .card-body p {
+      margin-top: 10px;
+    }
+  
+  }
+      
