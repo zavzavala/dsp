@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<md:EntitiesDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xrd="http://docs.oasis-open.org/ns/xri/xrd-1.0" xmlns:pyff="http://pyff.io/NS" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ser="http://eidas.europa.eu/metadata/servicelist" xmlns:eidas="http://eidas.europa.eu/saml-extensions" xmlns:ti="https://seamlessaccess.org/NS/trustinfo" Name="https://cafmoz.morenet.ac.mz/test" ID="_20240309T110723Z" validUntil="2024-03-18T11:07:23Z" cacheDuration="PT1H">
+  <ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#_20240309T110723Z"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ujbeJU1uBZ4vMKyEIKcT4ufnSL8c+K2cZ90GX51lB9Y=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>QuRVXMWZlLmV5EOTQsojjiCajSYDDDvIEMMm3Mrq/iBO7c5UbJNt04J8UJGDpRM3M1exgCXpgAlqxoMSpSziEyX7S3tjhPKd1pg5VmU3tXDEcrvB2uhQJZ03tlTei82ixnK6VkUe0sF74mHs14LSm1IqsiXTyPYhq2sVSr0vR5nIsLAQSo1Civ0vSibZYBgxvbVEk8b0LCCyA7pahlDAoJdjdv/p5ko4BbFWijOioq/JXs59VmQF0A9lAvce60bmwIIV6hGpelBwn+uuMhaddMR0IFCAyh186Msju8Do5HxvBeH3+eABeI/uVWZr0e33E3rq0Hy3bn7qRwzYsvZMSxxNnr8bdlgPzvXEZQJ4Qx1ebPfM5PoZMQcfH+iXF/HdVUHw+MmEMhTc4n61aU14/5JVc3xHMq458ddwHbBK2Q2ZZXMPbEzn3Xb//iatztZSqFGugRrIREEBNitUlX8yJH+nkO577tl9H22C0lWOLEqEYfsH5KqJRL0iAGlsRMBjWeCuD054Ckm03pjX3zpiVfk4oEKWNu+qViknBeDnVq3ihIU4aerFXvaNnRVWyEFetiUdmAdRaB+V80KkcdLMZ1M91Q2M/or+uR/+8crLkVm92u993G+hFB+D0oD3wrWJonVCXF62VgiiO/j4tD0UhKBZN4W6/O7I2QVCdEOBTHc=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIE+zCCAuOgAwIBAgIUFdsDnK0CK9B0uWpLsFfnbPBmNhIwDQYJKoZIhvcNAQEL
+BQAwDTELMAkGA1UEAwwCZHMwHhcNMjQwMjE0MjA0MzEzWhcNMzQwMjExMjA0MzEz
+WjANMQswCQYDVQQDDAJkczCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIB
+AL8GPjElt0Ray4JkHfEhBu429gbWlSitLcBEPcZwcfcfg30+jgOHGrlIzKulRKE3
+Q+8lGRvHadCyy2XeBMHk8PxcPgJFDZn5LlBhazkaKJMGHJcY/XsGRPfRw4v8lofv
+lKF7wurByIl21IaMa/+RV9jVEdL1177v+HJs60gDOOyK+98XuGRa7cSkl6h0jFEe
+vIrz8qiPSoX4f98chv7zbP+rdxASuOufYwqu49L7syU7kUJcVzHz8XQcs8CaiuTs
+jo9isbc44zIIZZ9+oCWrWHKiY39dk+8q25Bb43pf6HAWBG1nknDXockIOTMvZQfh
+lwyXx3EopQwMp7TCCtsggZ9Q3glE7hEp8Ijk9zuQ88Uh3811WSHMKCBKXZeb5Pkl
++UM9tv4w13N1hR63XVjb/ax7kKRl9z2S9RsKUZH11YNCgUriYzZGFiuHh5os2TFm
+mcsd54n51g6NpUZ4Rq5xeZ35blZCk05xcmRFeaQ7I9HfeCcZbworDv+wVSYmIEwU
+6sxoYPSOdSDcpeqR5XKjPceJnLU0W9KRbXr9qDg/EkhV++/pjyYKDSVNuDXWZv11
+88Vf3qNedRIkmzYPXyXfT/+/3WsF7fItkZtN1apLmd0WYo8OjOo1cY3V3D8sTcvS
+uv31Kg3hsDR3nvaLQdHbBM0aB+XTlnDJr2eMFaiog2szAgMBAAGjUzBRMB0GA1Ud
+DgQWBBTXShO8tWRlGupLdlqSOYKiPUm1bjAfBgNVHSMEGDAWgBTXShO8tWRlGupL
+dlqSOYKiPUm1bjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQCC
+T2yPxR0ygsr/gvO2preOYj1raD0gJU8Y6tDyasgwtkCjFtIwFclBmuyvmRoy2mjv
+CoXHW+9Pj5Qm6mmULmXJ/Fk5f6teMdsXIqENXVe8+dJjgZoDPs0W5gYhZ8rRujZn
+Ub7IHNThR6ScoF2mBiru1umTtIP/mnIWqKxpVgU7IyOeU46TQ7rw7FACyQxWF+0v
+ui5wMnBl4Xh5hhD51oNVX8BamaPfgH5sMnmZAVkQ9Cc3bs/zLrAVx6/pavOKye8j
+0axhgW2tbut+rQwYRnMzaFzo5qZdPbee2LBw9kmkbdFaGa4wCCqipca4IcWXT2aw
+inSifG+cIiEcoBvmzXbeMJlYXwJkmnLEN7qMvW72CdjbskOgeDi2hd/QOT07pCHl
+ut3EuWvalslaYj5o9HjDm+DXxdRgviwdjiSpCZQQmJaItpfLZ4Nh5VMgAunDKsuQ
+oXPMgtd6vEe8putFS3BUvfOOHIr7ZzofECvFZPfVKfFgBbnBq81x8q13F+VaEIBH
+YHyTImQGGfQqh9ahxDpHsWJRA4VuSxWoY0SWmhA4e0VTYKM+OfVMgikTdPicGTy+
+9d/uM0XCFYUibWnaYmO8htpHLeTH1Vz2A2cLZPHBOjlsfG6ONqrq0EGggiauNN71
+yPnkNLzH3Bxt0p8p0j1PEdkD0gQt5baneGE4UuAE+w==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:EntityDescriptor entityID="https://idp.cafmoz.morenet.ac.mz/idp/shibboleth">
+    <md:Extensions>
+      <mdrpi:RegistrationInfo registrationAuthority="https://cafmoz.morenet.ac.mz/">
+        <mdrpi:RegistrationPolicy xml:lang="en">https://cafmoz.morenet.ac.mz/policy.html</mdrpi:RegistrationPolicy>
+      </mdrpi:RegistrationInfo>
+    </md:Extensions>
+    <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">morenet.ac.mz</shibmd:Scope>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">CAFMOZ IDP</mdui:DisplayName>
+          <mdui:Description xml:lang="en">MoRENet Identity Management System</mdui:Description>
+          <mdui:Logo xml:lang="en" width="80" height="80">https://idp.cafmoz.morenet.ac.mz/path/to/logo.png</mdui:Logo>
+        </mdui:UIInfo>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIETDCCArSgAwIBAgIVAJtA+W4c6vrZrimE8k2CpBBbKTI4MA0GCSqGSIb3DQEBCwUAMCMxITAf
+BgNVBAMMGGlkcC5jYWZtb3oubW9yZW5ldC5hYy5tejAeFw0yNDAyMDcxMDA4MTRaFw00NDAyMDcx
+MDA4MTRaMCMxITAfBgNVBAMMGGlkcC5jYWZtb3oubW9yZW5ldC5hYy5tejCCAaIwDQYJKoZIhvcN
+AQEBBQADggGPADCCAYoCggGBAK6kxEmllvTj1QnGoYq+7V9MlAYRzpSSpSWAARJc87Nt94IQlnIm
+5hX6nDuzp6U5uZJTKcRlt4tqeY5/jJshtEUXUUhKTQTSLKCIuyUZVXOrt1KPer2rrnZV9QNIZY2w
+7K5BSxqkp2CN+bTjUsScMpYQt3ZqGNloLOAITdj6F2Q38lixzK4hNiF1y7PeSfLTv4AgIYaOctk/
+QF+ux9rmuYof8WoMg6mMKPqiYHJvaaZyh7EWw7pAXrNBOQdZXhNRYI1c3OCVmtFe6HvkRLO5iwmP
+3oftyX106SfIjxtt7shIqKXEbEDLbcDOPhq+1RINQCeIGKXoA+ZjMmhMCVVteibcZ1uzpiyZv/tH
+rU5XujHLfqdcQKrQCpGMlbqeIaabDE3QASyTvuXW0wJ+ffI8zLqb1fO3Vej7edgLk8Yn7Jbav7wo
+vIUGdgX44iw9E3aZEwx/r/GNnncJ0DtUwKS5YGKedI3Ig4xdQzpevLVzRgZtZkt9MmrzcwnXjp6u
+Vr0a0QIDAQABo3cwdTAdBgNVHQ4EFgQUhtIDY5TM9M1tRlDHfeAeaQ1xMS4wVAYDVR0RBE0wS4IY
+aWRwLmNhZm1vei5tb3JlbmV0LmFjLm16hi9odHRwczovL2lkcC5jYWZtb3oubW9yZW5ldC5hYy5t
+ei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAheSOAeTPF+8v8neA/HxkhI+mlktF
+A8psyTWBVYUePdfcQQBl51DTMqFJ6AMtqRmlQZxPg0n/BIKl8vTJUzzenAl6mn1XGxtwoqc710or
+6evNaAa4i7gAI3lEfc84liBiSg5znpP77XvmLpvdDBIHNmr8KNNEZ5KLZMZBiHDPY0tU/tpMiu7s
+VlmpJihZe1Q+FaMHyh89ZTZQd+72Gg5zcTqXEWFbUTYOxdJTSpN8WZrue6MkVbrk5uzEW85hjD7y
+bcA2j09ApO+xdvL/VAF5+9XhUYMZoPvTgAO2zLQeLab/Aoc2qzME/J3xXQHzx61vmAY7XVdT0/zA
+r7RkGU/mdEvqVqtJPtFqIimeknnY/1seTlrttbYkD/RnQUOVgOAVKFb8sVTSiIzkvlrvf3FzoPjL
+25MYCQYPvwFYuaT932dZ3f0xRqOjW/66fZvTM7KG7V14Qfg/NUMhTlQMtF6SHDVIa0vbdxrPpLUl
+VgJiAqZkbBGmGoe78h7mKIgssqXJ
+                    </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIETDCCArSgAwIBAgIVAMAaC0pKsDYeCi2ZF+n77tno4Hp/MA0GCSqGSIb3DQEBCwUAMCMxITAf
+BgNVBAMMGGlkcC5jYWZtb3oubW9yZW5ldC5hYy5tejAeFw0yNDAyMDcxMDA4MTJaFw00NDAyMDcx
+MDA4MTJaMCMxITAfBgNVBAMMGGlkcC5jYWZtb3oubW9yZW5ldC5hYy5tejCCAaIwDQYJKoZIhvcN
+AQEBBQADggGPADCCAYoCggGBAMgmnoVrAcJIKOzmWYAuSP2nuCLOrsOOd2/sQQxKvNwmUJoJRQdA
+LVp0r8nWhcjjqHsI47r39/4YaNT0EF/yY+xksFjGIW90kT1yw/Rux1cvunJKrnhHwJNe4ylUyz8+
+IraPXld4IepGBujxXDR9JEIO0I/QY/pld3bOEf0dY7Ma6WrqigFxaImzZPQn3KswIDrXYoHxWv2+
+EOXZoNuWOH5SnUs156ag2nOIdNQt3bkvFUujoNr5ePPJEGVBdQTBtaIwb8YwoC1FoJLfgj7D20Jy
+j/H/vzKKzkNic5wX7uzyRhVzO3qtIVmRkFd82YIXEWEitFiXiCZYaLhW3j6ibyWeQjmy36HzFaud
+tXjJolgnz/iErOzSbzJDhVNU027YuMJFRslNbkSNslY4FaWmFeUHWhcCC7FifZNvnIfD6fExT2kn
+TXEbqF6ncLZpV4LbXJ72rRZ7okPDZLoslXFy6mGXzYeoX+VJz884li/1gKWn1Psu5s6YmIwQyRdH
+dPYi0wIDAQABo3cwdTAdBgNVHQ4EFgQUM1bSyiQZEpYMrEB3VAQxSIO0UvgwVAYDVR0RBE0wS4IY
+aWRwLmNhZm1vei5tb3JlbmV0LmFjLm16hi9odHRwczovL2lkcC5jYWZtb3oubW9yZW5ldC5hYy5t
+ei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAU12GebRWa9am6HH2y0zJMLCR9V9L
+7yeKmGtcKPeRTmuhui14XQhG0CKYaWI7TCirLNL0h0Iuqxqq3UyDK6nZolnP23B/4f4gBgk2w92W
+DC7v+dV5gzJdPzIamR8KfTZK0WvZXcdclr9S90ZwwGc75xRdjOEnHNSeZBkvnnd66Nqwoehg553b
+P1RRALl7lAqsu7O94cCTkrXceNoVQSOKO1EwJQur/LJIdRWwcVCYmsPkOy4WMH9f9gunRMfr457C
+Rnp6y1gU+z4dCa85Sc/7GixWyBv48E4ZYlXNHjyfHGEdBVBpR080vdd0wp8buAxEDIp8/z6N27n1
+zEDzng1vT27fDdIEYMHp6p5x3tuFyFjwIoqM5em3eCNmxOC2bL2xfd7QdODDmNKwLa5Qyeiwzid5
+9sjbsVDFQaW+Jv2NhniPldUvRA3S7jIdFicCOtvH6AQ4T255ll8s0PwGo4IZGwOn+f9DhYUSughb
+pi3kA9anPZ2GeEI5tnNfdvSjqnZ7
+                    </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIETDCCArSgAwIBAgIVAOla5cu2ojLsWel7ZbPmcw7yMR+sMA0GCSqGSIb3DQEBCwUAMCMxITAf
+BgNVBAMMGGlkcC5jYWZtb3oubW9yZW5ldC5hYy5tejAeFw0yNDAyMDcxMDA4MTRaFw00NDAyMDcx
+MDA4MTRaMCMxITAfBgNVBAMMGGlkcC5jYWZtb3oubW9yZW5ldC5hYy5tejCCAaIwDQYJKoZIhvcN
+AQEBBQADggGPADCCAYoCggGBAMFngklOT2SVEfNEe3oGhIUCjouSuPKuDUfgAA8NXTKVwM64zJpy
+Zw4adjZ5B1uWKDqO25up0Mys8KXnqN6M4H0OLN29lZeVk2ONvQoJ1OVGll8CoHH/JKZRn26ouL2X
+jobx4lxBllKoThOIBypB/K7yMUmjxTBlGdFDsPSCTPNUlf1GNNd9jxK6dpeJcvOBWqpP8ZhPCFK5
+tDGyanoofPJdoceFqrTubWKI3kJ7X4q3SQas1da7eSUxEXYv3QEXzEShvJkc1DvsyVU/+FHDFQSr
+na9pLxly1b/OTFuHwUAEFVLfBEknmAw/eW3suoPsI2DDgOD2hlOjTbFWSTKDEmZoNV8vcbM1g/F+
+5GwQGhnTV+oSxwEBuuhziSEsxxGhQRtA38/GddcrehPEuANIahJc7euV8aFLT58x4UtfS5nq5Iqh
+K88WF4IaSHnrthpARfuCg3WaASlaK16qAt0z+HL2HuQSMBBVOzJ0cSujnc3rlPBFyp0yMa5Ejh72
+AnQKawIDAQABo3cwdTAdBgNVHQ4EFgQU6G1L729lZqcYL9KQ23YNA26+pBIwVAYDVR0RBE0wS4IY
+aWRwLmNhZm1vei5tb3JlbmV0LmFjLm16hi9odHRwczovL2lkcC5jYWZtb3oubW9yZW5ldC5hYy5t
+ei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAcT+ilVYoYgsAENjlRx3bFWtKDrvM
+V4eIbGPI+I2GZyiMRiXDFmTwmw4nW3ha1SHVn+bHSo/ZK7V6M/pcWEeqFUrRPO2nlCj1u5LgBFfl
+16O334tbn9qiYhJhEuvX4sYhKT8z4rGi7NMKdnPior2wwkBymZp4pzWHrY40QrfDlrPNeYA0J/4y
+cG2Nds6B57OaR8l8eaPJfwpE8fJA6trqUMKhgX7lAl1T/IoyMJ7oTZylW9P6U+/ytsxR1EJ/lp+S
+gETc5dY+gGSL0Ti74eAMPbE59Y6vSycStkhVAvv6HSs635km8jxRLOX+19BgrAHVBkWwXmFkKMWm
+BqUmiWXBnEFoMynbUflGl/40wjXAGd9wC+7Q8cwSxuzX4kjNyXCP1g9farXpM9YsV1pyqnGjYpsx
+zPLyK5Yh/oqvzhdGVWW1XqSPPNXh0ozfbfFgjdNy2enJjxAW62zGYVRPFuI4OvG3LznFJWTTR/Uu
+Ge2OrvNdogVzmf+1+wj84VXseMvz
+                    </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.cafmoz.morenet.ac.mz/idp/profile/SAML2/SOAP/ArtifactResolution"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.cafmoz.morenet.ac.mz/idp/profile/SAML2/Redirect/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.cafmoz.morenet.ac.mz/idp/profile/SAML2/POST/SLO"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.cafmoz.morenet.ac.mz/idp/profile/SAML2/POST-SimpleSign/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.cafmoz.morenet.ac.mz/idp/profile/SAML2/Redirect/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.cafmoz.morenet.ac.mzidp/profile/SAML2/POST/SSO"/>
+    </md:IDPSSODescriptor>
+  </md:EntityDescriptor>
+  <md:EntityDescriptor ID="_d6d408ca9e813cc1fa3735ec7526be6b49e9e48b" entityID="https://filesender.morenet.ac.mz/shibboleth">
+    <md:Extensions xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport">
+      <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+      <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384"/>
+      <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+      <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha224"/>
+      <alg:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512"/>
+      <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha384"/>
+      <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
+      <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha224"/>
+      <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+      <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha384"/>
+      <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <alg:SigningMethod Algorithm="http://www.w3.org/2009/xmldsig11#dsa-sha256"/>
+      <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1"/>
+      <alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
+      <mdrpi:RegistrationInfo registrationAuthority="https://cafmoz.morenet.ac.mz/">
+        <mdrpi:RegistrationPolicy xml:lang="en">https://cafmoz.morenet.ac.mz/policy.html</mdrpi:RegistrationPolicy>
+      </mdrpi:RegistrationInfo>
+    </md:Extensions>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://filesender.morenet.ac.mz/Shibboleth.sso/Login"/>
+        <idpdisc:DiscoveryResponse xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://filesender.morenet.ac.mz/Shibboleth.sso/Login" index="1"/>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:KeyName>filesender</ds:KeyName>
+          <ds:KeyName>https://filesender/shibboleth</ds:KeyName>
+          <ds:X509Data>
+            <ds:X509SubjectName>CN=filesender</ds:X509SubjectName>
+            <ds:X509Certificate>MIIEETCCAnmgAwIBAgIUF84Oo3YiKlJ6dZKXbYpeSL9f8bYwDQYJKoZIhvcNAQEL
+BQAwFTETMBEGA1UEAxMKZmlsZXNlbmRlcjAgFw0yNDAyMTMxMTM2MTNaGA8yMDU0
+MDIwNTExMzYxM1owFTETMBEGA1UEAxMKZmlsZXNlbmRlcjCCAaIwDQYJKoZIhvcN
+AQEBBQADggGPADCCAYoCggGBAKH3buhuKDsPSAG022CauY5aV+Rpc5VGzkfPImUP
+6JtcliiHScCoAYjxjvRmgYprtzAaFolX6fOTxtpQSxXw7zkzLHyiCQn/zBrRP5wi
+B+cQ2vKQN7NDHAXYZqNfH037wdjO8NotWrAzpbU1yKPWorzfPLyUqo0RXlX+bhIb
+zge6wJcrA2Gk0+2h/i3Ws02Eo5M/GKAv8FE6GvqC+U8FokRwMysyGvhypLF9Dnzz
+KDpKHsBj6CVmEMLIh49IBjTl8Z0hsTzr9n+bxg68hJKy74BFWuIfjv2sJz8syp2U
+Eq40GfdL1vqUG1Z2k++rHj/mOE/FJ/vSHswfm7YmmK9zcD6PGGYQZe1hfn1SV98o
+Q1/5kgvY/7CJ5kQEsRBhwtFEIOlemM4bXM+H5dS9Lzk2jHjvV8H/JvPwZdLimdLJ
+rP42tIbWpd/hTix1KJQpVDLB8VP2sd/g+AnSoCFdANy8qHPzLhjSCipU2O12RC00
+/k+/VW5mV0hQKGj16KZxBH3neQIDAQABo1cwVTA0BgNVHREELTArggpmaWxlc2Vu
+ZGVyhh1odHRwczovL2ZpbGVzZW5kZXIvc2hpYmJvbGV0aDAdBgNVHQ4EFgQUdLJz
+ool2niCwBjtyAlxgGRF5i+wwDQYJKoZIhvcNAQELBQADggGBAJzdjgJBtFdQx+lu
+a3oLhr6gU0XUo3I3F8T9+9btlvqhTTcjZuz9raTPZhDtxSbvQduhaEo1jykjX0h1
+7J+MSN/Aeal87SPcW6/f6SWAzHRb8loB7SIIO1agahZKe6um+qUHhllZV8vWRP2p
+ZsCl+a+yG0NG56ooDOxwAc/ohiS+NO/3BbDtv/aX7dcVS0CXh9zpBm8xJVpA7lgY
+iUevyUqGb3vIh4Bp5MuSJ+PCRkAAgigs0f5SsfnmRfxNbLBOisz4RxQEn1WixmNV
+UzIB6bYq0VmgE5zE38Sjn6xUdZP6ezIpxUeqdoOkhZsyrHPQWZdMHW33+TC4taem
+qeH2OAsHHwilyQgMxIs+xIHdIe7cBPaAVPDw7kOaNF9eeYx9gNWhSHLubH8Du7yh
+nMSGvWAJHEdzdL1lc8sJSGgO3OKF1YIHxlS0asnMjHtSRP7+XvYAYD+kX3UjlBW/
+VEE715R1Q4gd5A+2KlxpfqHvZVVspJcRohAA+gIkzWFP9JTmBg==
+</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:KeyName>filesender</ds:KeyName>
+          <ds:KeyName>https://filesender/shibboleth</ds:KeyName>
+          <ds:X509Data>
+            <ds:X509SubjectName>CN=filesender</ds:X509SubjectName>
+            <ds:X509Certificate>MIIEETCCAnmgAwIBAgIUPwRXMYQ2XmGgfqUX6vyGMkLnBlowDQYJKoZIhvcNAQEL
+BQAwFTETMBEGA1UEAxMKZmlsZXNlbmRlcjAgFw0yNDAyMTMxMTM2MjJaGA8yMDU0
+MDIwNTExMzYyMlowFTETMBEGA1UEAxMKZmlsZXNlbmRlcjCCAaIwDQYJKoZIhvcN
+AQEBBQADggGPADCCAYoCggGBAJtJAxcpzPKt0SdkkUizj0dsJJ6VRa+dX6FtRVrh
+PwggC995rwSBETDmsx5JShXe97J518vcClb2wVhy+I90kLN/lTcdEI2CoHjp8RP8
+tuIM+W0bEm78z17d1rHLewURIhSDxJHGhVp7Gdz3butSkpnFPw8VKTy09dSR8B6R
+ZWWLHLGLjwD+d6Hk/8OK6nJhXPwJ4RJ/DcUDFa173laL2I5jP6QTmT8pkSdjXg+S
+La/3yCH51xiCYbbTolozeNcv97Cp2sbrTVci9ZxcQzPx+JxjTvJkrW3FOb+zWXvT
+gEde7FI1hrYDhNzNEYPJv4sOXtRN+1Lg9doB7a6lV8Qw6tI3blQNA6t4Ia0xRKa4
+N0LEmm8kyZA0HQzkg48y+EyH/IY8MSjSYF9+uw/0jI/9lEtDOvo6VG31BnTrFIB5
+z0XDGkn0QgykDC5WCA9useTw1s0V3y/D3CkEk4JEsOvev5KJ2EjG7Xizw4Z423l6
+9EVJR4i++APY2vr3XW7KZl8BxQIDAQABo1cwVTA0BgNVHREELTArggpmaWxlc2Vu
+ZGVyhh1odHRwczovL2ZpbGVzZW5kZXIvc2hpYmJvbGV0aDAdBgNVHQ4EFgQUJlVO
+7GF78iohUJ7POkW/QS3MF9kwDQYJKoZIhvcNAQELBQADggGBAIE4YZPwVKr5dr3+
+1Sn7ntnbTp4/pJqAddKjxXrTe2Uz0vZ2g24EPDxYlbJEQ/vu6zazqt6MZCk9wJIi
+O7bFYoBxcnyqLlk0Gbv4YyLc6YbwtyJsz+Q2jfkp+RzB/uSTmuxgmBgMkJj5/dPl
+Cx6R1vvXICNB4zaltlJv8KAu/IOT5G/MSpXmGXbbZoag7ag+GLy/cW1g52uy3np0
+TTsYCDej0RpV/Wq9+LYZ8Fe+gXAJIY31QXlQEJf9NCTOWvbobyiuwFVzrSIbq39f
+XV0lsgF1G8vSxP9NVzEP8Saxf+L56+AvfOgpXLnVBbUXXw73HZQSpLqbEr3x/Bes
+CqFU5j0o5+tP8eML4AN7ZiSiS/GDDFlqIpGZbaxQdyXsmfK1Y98PZUhUwMdduWyW
+Fqtt7i9IQr08u5qLHAWxz6Ape+XnfNnhMKrWysHIaaBqWXJWred0d9CPMbMZiMkM
+2lhw+8fd2OjIhQssgNuwZ3Z2dfXTV5n8iBbwmsf9UjUD//LQvw==
+</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes128-gcm"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes192-gcm"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes256-gcm"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes192-cbc"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#rsa-oaep"/>
+        <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+      </md:KeyDescriptor>
+      <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://filesender.morenet.ac.mz/Shibboleth.sso/Artifact/SOAP" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://filesender.morenet.ac.mz/Shibboleth.sso/SAML2/POST" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://filesender.morenet.ac.mz/Shibboleth.sso/SAML2/POST-SimpleSign" index="2"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://filesender.morenet.ac.mz/Shibboleth.sso/SAML2/Artifact" index="3"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://filesender.morenet.ac.mz/Shibboleth.sso/SAML2/ECP" index="4"/>
+    </md:SPSSODescriptor>
+  </md:EntityDescriptor>
+</md:EntitiesDescriptor>
